@@ -1,0 +1,32 @@
+{
+  "name": "resetscript",
+  "version": "1.0",
+  "description": "Reset Target accounts en masse",
+  "main": "loader.js",
+  "bin": "loader.js",
+  "pkg": {
+    "assets": [
+      "node_modules",
+      "resetScript.jsc"
+    ],
+    "targets": [
+      "node12"
+    ]
+  },
+  "dependencies": {
+    "bytenode": "*",
+    "convert-csv-to-array": "*",
+    "convert-time": "^0.3.0",
+    "discord-webhook-node": "*",
+    "fs": "*",
+    "hwid": "*",
+    "ini": "*",
+    "inquirer": "*",
+    "node-fetch": "*",
+    "prompt-sync": "*",
+    "puppeteer-extra": "*",
+    "puppeteer-extra-plugin-block-resources": "*",
+    "puppeteer-extra-plugin-stealth": "*"
+  },
+  "author": "spatterlight"
+}
